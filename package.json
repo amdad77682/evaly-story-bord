@@ -1,6 +1,8 @@
 {
   "name": "@amdad77682/evaly-story-board",
-  "files": "dist",
+  "files": [
+    "dist"
+  ],
   "typings": "dist/index.d.ts",
   "version": "1.0.0",
   "description": "",
@@ -9,6 +11,14 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amdad77682/evaly-story-bord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amdad77682/evaly-story-bord.git/issues"
+  },
+  "homepage": "https://github.com/amdad77682/evaly-story-bord.git#readme",
   "scripts": {
     "build": "rollup -c",
     "build-watch": "rollup -c -w",
